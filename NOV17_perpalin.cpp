@@ -7,7 +7,7 @@ int main()
 {
 	int tests = 0;
 	cin >> tests;
-	while(tests--)
+	while(tests)
 	{
 		int N = 0 , P = 0 , mid = 0;
 		cin >> N >> P;
@@ -48,6 +48,7 @@ int main()
 			cout << n_str << endl;
 
 		}
+		--tests;
 	}
 	return 0;
 }
